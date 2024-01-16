@@ -58,7 +58,7 @@ nav li {
 }
 
 .banner {
-    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     height: 600px;
     text-align: center;
@@ -146,6 +146,27 @@ background: #FF5400;
 margin-top: 2rem;
 padding: 14px 34px;
 }
+
+.imaga-part-one{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.image-part-two{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.image-part-three{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+
+
+
+
 
 section .card{
     display: grid;
