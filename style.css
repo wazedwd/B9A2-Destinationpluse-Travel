@@ -6,9 +6,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-
-header,
-main {
+header, main{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -17,17 +15,18 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 .nav-title {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .travel-name {
     color: #131318;
-    font-size: 2.25rem;
+    font-size: 44px;
     font-weight: 800;
 
 }
@@ -46,9 +45,9 @@ nav {
 
 nav>ul {
     display: flex;
-    gap: 2.75rem;
+    gap: 44px;
     color: #424247;
-    font-size: 1.12rem;
+    font-size: 18px;
     font-weight: 400;
 
 }
@@ -58,24 +57,38 @@ nav li {
 }
 
 .banner {
-    background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     height: 600px;
+    background-size: cover, cover;
     text-align: center;
-    background-size: cover;
+   
+}
+
+.banner-option{
+display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
 }
 
 .explore {
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
+    padding-top: 106px;
+    padding-bottom: 24px;
 }
 
 .explore-description {
     color: #FFF;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
+    padding-bottom: 48px;
 }
+
 
 .select {
     border-radius: 8px;
@@ -84,10 +97,10 @@ nav li {
     width: 174px;
     height: 52px;
     color: rgba(19, 19, 24, 0.50);
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
-    padding-left: 1rem;
-    margin-left: 1.5rem;
+    padding-left: 16px;
+    margin-left: 34px;
 
 }
 
@@ -98,43 +111,45 @@ nav li {
 }
 
 .btn {
-    width: 174px;
-    height: 52px;
-    border: none;
-    align-items: center;
-    border-radius: 8px;
-    background-color: #FF5400;
-    padding-left: 1rem;
-    margin-left: 1.5rem;
-    align-items: center;
+width: 174px;
+height: 52px;
+border: none;
+color: #FFF;
+border-radius: 8px;
+font-size: 16px;
+font-weight: 700;
+margin-left: 24px;
+border-radius: 8px;
+background-color: #FF5400;
 }
 
 .tour-title{
     display: flex;
-    margin-top: 6.25rem;
-    margin-bottom: 6.25rem;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-}
+
 .tour-title-content{
     width: 40%;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 .tour-title-content p{
 color: rgba(19, 19, 24, 0.70);
 font-size: 1rem;
 font-weight: 400;
-margin-bottom: 1.5rem;
-width: 80%;
+margin-bottom: 24px;
+width: 100%;
 
 }
 .tour-title-content h1{
 color: #131318;
-font-size: 2.5rem;
+font-size: 40px;
 font-weight: 800;
 
 }
 .tour-title-img img{
-    width: ;
+    width: 100%;
 }
 .primary-btn{
 color: #FFFFFF; 
@@ -146,6 +161,14 @@ background: #FF5400;
 margin-top: 2rem;
 padding: 14px 34px;
 }
+
+.chose-explore{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 .imaga-part-one{
     display: grid;
@@ -162,30 +185,59 @@ padding: 14px 34px;
 }
 
 
+.imaga-part-one img{
+    width: 98%;
+    height: 300px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.img-two-first{
+width: 564px;
+    
+}
+    
+.img-two-second{
+    width: 664px;
+}
+.img-two-third{
+    width: 464px;
+ }
 
 
 
 
 
+.img-three-one img{
+width:608px;
+height: 300px;
+margin-top: 24px;
+margin-bottom: 100px;
+}
 
+.img-three-two img{
+   width: 808px;
+    height: 300px;
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
 section .card{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 24px;
 }
 
 .price-container{
     display: flex;
     justify-content: center;
-    margin-top: 1.5rem;
-    margin-bottom: 6.25rem;
+    margin-top: 24px;
+    margin-bottom: 100px;
 }
 
 .hotel{
     width:90%;
     height: 284px;
     border-radius: 16px;
-    padding: 2rem 2rem;
+    padding: 32px 32px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background-color: rgba(251, 181, 99, 0.05);  
 }
@@ -194,7 +246,7 @@ section .card{
     width:90%;
     height: 284px;
     border-radius: 16px;
-    padding: 2rem 2rem;
+    padding: 32px 32px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
@@ -203,23 +255,23 @@ section .card{
     width: 573px;
     height: 284px;
     border-radius: 16px;
-    padding: 2rem 2rem;
+    padding: 32px 32px ;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
 .chose{
 color: #131318;
 text-align: center;
-font-size: 2.5rem;
+font-size: 40px;
 font-weight: 800;
 }
 
 .chosing-description{
 color: rgba(19, 19, 24, 0.70);
 text-align: center;
-font-size: 1rem;
+font-size: 16px;
 font-weight: 400;
-margin-bottom: 3rem;
+margin-bottom: 48px;
 }
 
 .primary-h1{
@@ -229,7 +281,7 @@ font-weight: 800;
 }
 .primary-p{
 color: #5A5A5D;
-font-size:1rem;
+font-size: 16px;
 font-weight: 400;
 width: 486px;
 }
@@ -248,32 +300,32 @@ form input{
   border: none;
   border-radius: 8px;
   background-color: rgba(19, 19, 24, 0.05);
-  margin-bottom: 1rem;
-  margin-left: 2.5rem;
+  margin-bottom: 16px;
+  margin-left: 40px;
 }
 
 .newsletter{
     color: #131318;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 800;
-    margin-left: 2.5rem;
-    margin-top: 2.5rem;
+    margin-left: 40px;
+    margin-top: 40;
 }
 
 .newsletter-title{
     color: #5A5A5D;
     width: 350px;
-    font-size: 1rem;
-    margin-left: 2.5rem;
+    font-size: 16px;
+    margin-left: 40px;
     font-weight: 400; 
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
+    margin-top: 16px;
+    margin-bottom: 24px;
 }
 
 .hr{
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    margin-bottom: 1.5rem;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 form, ::placeholder{
@@ -283,19 +335,20 @@ form, ::placeholder{
     border-radius: 8px;
     background-color: #FF5400;
     color: #FFF;
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 800;
 
 }
 
 .formletter-part{
     display: flex;
-    gap: 1.5rem;
+    gap: 20px;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .form-img img{
-    width: 942px;
+    width: 918px; 
     height: 422px;
 }
 
@@ -305,8 +358,8 @@ form, ::placeholder{
    width: 324px;
    height: 120px;
    position: absolute;
-   margin-top: -170px;
-   margin-left: 611px;
+   margin-top: -178px;
+   margin-left: 585px;
    transform: rotate(-19.628deg);
     
 }
@@ -325,18 +378,79 @@ text-align: center;
 margin-top: 0px;
 }
 
+footer{
+    background: rgba(19, 19, 24, 0.05); 
+    height: 502px;
+}
+
 .form-img{
     position: relative;
 }
 
+/* footer section */
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    padding-top: 110px;
+    padding-bottom: 15px;
+}
 
+.footer-name{
+    color:#131318;
+font-size: 32px;
+   font-weight: 800;
 
+}
+.span{
+    color: #FF5400;
+    font-size: 32px;
+  font-weight: 800;
+}
+
+.footer-logo{
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 50px;
+
+}
+.hr{
+   margin-left: 284px;
+    margin-right: 284px;
+  
+}
+
+.small{
+    text-align: center;
+    padding-left: 850px;
+}
 
 @media screen and (max-width:600px) {  
+    nav{
+        display: none;
+    }
+
+    .banner-option{
+        flex-direction: column;
+    }
+    .explore{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .explore-description{
+        padding-bottom: 0px;
+    }
+    .banner{
+        background-position: bottom;
+        border-radius: 16px;
+    }
+
     .tour-title{
         flex-direction: column;
     }
-  .tour-title-content p{
+  .tour-title-content{
     width: 100%;
   }
   .tour-title-img img{
@@ -344,7 +458,25 @@ margin-top: 0px;
     margin-top: 24px;
     
   }
-  
+  .imaga-part-one {
+    grid-template-columns: repeat(1, 1fr);
+  }
+ .image-part-two{
+    grid-template-columns: repeat(1, 1fr);
+}
+.image-part-three{
+    grid-template-columns: repeat(1, 1fr); 
+}
+
+.img-three-one img{
+    width: 100%;
+}
+.img-three-two img {
+    width: 100%;
+}
+
+
+
   section .card{
     grid-template-columns: repeat(1, 1fr);
     width: 50%;
@@ -356,5 +488,17 @@ margin-top: 0px;
  .form-img img{
     width: 100%;
  }
+ .form-img-botton{
+    margin-top: -172px;
+    margin-left: 230px;
+ }
+.hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.small{
+    padding: 0px;
+   margin-left: 200px;
+}
     
 }
