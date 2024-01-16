@@ -191,21 +191,17 @@ padding: 14px 34px;
     margin-top: 48px;
     margin-bottom: 24px;
 }
-.img-two-first{
-width: 564px;
+.img-one{
+width: 464px;
     
 }
-    
-.img-two-second{
+
+.img-two{
     width: 664px;
 }
-.img-two-third{
-    width: 464px;
+.img-there{
+    width: 364px;
  }
-
-
-
-
 
 .img-three-one img{
 width:608px;
@@ -467,15 +463,12 @@ font-size: 32px;
 .image-part-three{
     grid-template-columns: repeat(1, 1fr); 
 }
-
 .img-three-one img{
     width: 100%;
 }
 .img-three-two img {
     width: 100%;
 }
-
-
 
   section .card{
     grid-template-columns: repeat(1, 1fr);
