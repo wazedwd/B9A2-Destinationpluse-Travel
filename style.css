@@ -57,7 +57,7 @@ nav li {
 }
 
 .banner {
-    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: url("./Images/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
     height: 600px;
     background-size: cover, cover;
@@ -429,7 +429,7 @@ font-size: 32px;
 
 @media screen and (max-width:600px) {  
     nav{
-        display: none;
+        flex-direction: column;
     }
 
     .banner-option{
