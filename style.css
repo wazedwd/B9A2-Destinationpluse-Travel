@@ -200,7 +200,6 @@ margin-bottom: 48px;
 
 .first-item{
     display: flex;
-    justify-content: center;
     gap: 24px;
     width: 100%;
     height: 300px;
@@ -208,14 +207,15 @@ margin-bottom: 48px;
     
 }
 .second-item{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 100%;
     gap: 24px;
     margin-bottom: 24px;
 }
 .third-item{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 24px;
     margin-bottom: 100px;
@@ -490,16 +490,16 @@ footer {
     }
 
     .first-item {
-        flex-direction: column;
+       flex-direction: column;
         
     }
 
     .second-item {
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .third-item{
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .first-card{

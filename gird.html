@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+        .chose-item{
+            display: grid;
+            grid-template-columns: repeat(24, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 15px;
+            grid-template-areas: 
+            "a a a a a a a a a a a a b b b b b b b b b b b b"
+            "c c c c c c c d d d d d d d d d d d e e e e e e"
+            "f f f f f f f f f f f g g g g g g g g g g g g g";
+        }
+        
+        
+        
+        .item-1{
+            grid-area: a;
+            width: 100%;
+        }
+        .item-2{
+            grid-area: b;
+            width: 100%;
+        }
+        .item-3{
+            grid-area: c;
+            width: 100%;
+        }
+        .item-4{
+            grid-area: d;
+            width: 100%;
+        }
+        .item-5{
+            grid-area: e;
+            width: 100%;
+        }
+        .item-6{
+            grid-area: f;
+            width: 100%;
+        }
+        .item-7{
+            grid-area: g;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <div class="chose-item">
+                <div class="item-1">
+                    <img src="./Images/Rectangle 5.png" alt="">
+                </div>
+                <div class="item-2">
+                    <img src="./Images/Rectangle 8.png" alt="">
+                </div>
+                <div class="item-3">
+                    <img src="./Images/Rectangle 6.png" alt="">
+                </div>
+                <div class="item-4">
+                    <img src="./Images/Rectangle 7.png" alt="">
+                </div>
+                <div class="item-5">
+                    <img src="./Images/Rectangle 9.png" alt="">
+                </div>
+                <div class="item-6">
+                    <img src="./Images/Rectangle 11.png" alt="">
+                </div>
+                <div class="item-7">
+                    <img src="./Images/Rectangle 10.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
