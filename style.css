@@ -78,6 +78,7 @@ nav li {
 
 .input {
     display: flex;
+    width: 80%;
     justify-content: center;
     align-items: center;
     display: inline-flex;
@@ -108,7 +109,7 @@ nav li {
     border-radius: 8px;
     background-color: #FFF;
     border: none;
-    width: 174px;
+    width: 20%;
     height: 52px;
     color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
@@ -125,7 +126,7 @@ nav li {
 }
 
 .btn {
-    width: 174px;
+    width: 20%;
     height: 52px;
     border: none;
     color: #FFF;
@@ -183,105 +184,86 @@ nav li {
 }
 
 /* third section */
-
-.chose-explore {
-    color: rgba(19, 19, 24, 0.70);
+.chose{
+    color: #131318;
     text-align: center;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 800;
+}
+.item-description{
+color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 48px;
 }
 
-
-.imaga-part-one {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.image-part-two {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.image-part-three {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-
-.imaga-part-one img {
-    width: 98%;
+.first-item{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
     height: 300px;
-    margin-top: 48px;
+    margin-bottom: 24px;
+    
+}
+.second-item{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 24px;
     margin-bottom: 24px;
 }
-
-.img-one {
-    width: 464px;
-
-}
-
-.img-two {
-    width: 664px;
-}
-
-.img-there {
-    width: 364px;
-}
-
-.img-three-one img {
-    width: 608px;
-    height: 300px;
-    margin-top: 24px;
+.third-item{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
     margin-bottom: 100px;
 }
 
-.img-three-two img {
-    width: 808px;
-    height: 300px;
-    margin-top: 24px;
-    margin-bottom: 100px;
-}
 
 /* foth section */
 
-section .card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-}
-
-.price-container {
+.first-card{
     display: flex;
     justify-content: center;
-    margin-top: 24px;
-    margin-bottom: 100px;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.second-card{
+    display: flex;
+    justify-content: center;
 }
 
 .hotel {
-    width: 90%;
-    height: 284px;
+    width: 100%;
     border-radius: 16px;
-    padding: 32px 32px;
+    padding: 30px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background-color: rgba(251, 181, 99, 0.05);
+ 
 }
 
 .map {
-    width: 90%;
-    height: 284px;
+    width: 100%;
     border-radius: 16px;
-    padding: 32px 32px;
+    padding: 30px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
+   
 }
 
+
 .price {
-    width: 573px;
-    height: 284px;
+    width: 50%;
     border-radius: 16px;
-    padding: 32px 32px;
+    padding: 30px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+    margin-bottom: 100px;
+    align-items: center;
+  
 }
 
 .chose {
@@ -309,7 +291,7 @@ section .card {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
-    width: 486px;
+    width: 350px;
 }
 
 /* fith part */
@@ -476,6 +458,10 @@ footer {
         flex-direction: column;
     }
 
+    .select, .btn{
+        width: 80%;
+    } 
+    
     .explore {
         padding-top: 0px;
         padding-bottom: 0px;
@@ -486,7 +472,6 @@ footer {
     }
 
     .banner {
-        background-position: bottom;
         border-radius: 16px;
     }
 
@@ -504,32 +489,28 @@ footer {
 
     }
 
-    .imaga-part-one {
-        grid-template-columns: repeat(1, 1fr);
+    .first-item {
+        flex-direction: column;
+        
     }
 
-    .image-part-two {
-        grid-template-columns: repeat(1, 1fr);
+    .second-item {
+        flex-direction: column;
     }
 
-    .image-part-three {
-        grid-template-columns: repeat(1, 1fr);
+    .third-item{
+        flex-direction: column;
     }
 
-    .img-three-one img {
+    .first-card{
+        flex-direction: column;
         width: 100%;
     }
 
-    .img-three-two img {
+    .price{
         width: 100%;
     }
 
-    section .card {
-        grid-template-columns: repeat(1, 1fr);
-        width: 50%;
-    }
-
-    section,
     .formletter-part {
         flex-direction: column;
     }
